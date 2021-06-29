@@ -1,4 +1,5 @@
-import React from 'react';
+//import React from 'react';
+import React, { useEffect } from "react";
 import './Footer.css';
 import { Link } from 'react-router-dom';
 
@@ -28,7 +29,7 @@ function Footer() {
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
-              to='/'
+              href = 'https://www.facebook.com/Atlakamani2017/'
               target='_blank'
               aria-label='Facebook'
             >
