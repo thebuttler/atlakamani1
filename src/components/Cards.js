@@ -32,7 +32,7 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem1
-              src='images/5.jpg'
+              src='images/5.JPG'
               text='Explore, rest or read.'
               label='Amenities'
               path='/sign-up'
