@@ -27,30 +27,30 @@ function Footer() {
           </div>
           <small class='website-rights'>Atlakamani © 2020</small>
           <div class='social-icons'>
-            <Link
+            <a
               class='social-icon-link facebook'
               href = 'https://www.facebook.com/Atlakamani2017/'
               target='_blank'
               aria-label='Facebook'
             >
               <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
+            </a>
+            <a
               class='social-icon-link instagram'
               href='https://www.instagram.com/atlakamanisurfingresort_/?hl=en'
               target='_blank'
               aria-label='Instagram'
             >
               <i class='fab fa-instagram' />
-            </Link>
-            <Link
+            </a>
+            <a
               class='social-icon-link twitter'
-              to='/'
+              href='https://twitter.com/surferelcuco'
               target='_blank'
               aria-label='Twitter'
             >
               <i class='fab fa-twitter' />
-            </Link>
+            </a>
           </div>
         </div>
       </section>
