@@ -37,7 +37,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link instagram'
-              to='/'
+              href='https://www.instagram.com/atlakamanisurfingresort_/?hl=en'
               target='_blank'
               aria-label='Instagram'
             >
