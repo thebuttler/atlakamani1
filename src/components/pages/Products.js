@@ -18,19 +18,16 @@ export default function Products() {
           <div className='cards__wrapper'>
             <ul className='cards__items'>
               <CardItem2 onClick={() => setButtonPopup(true)} 
-                src='/images/lessons.jpg'
+                src='images/lessons.jpeg'
                 label='Surf Classes: 20$ P/P'
                 /*path='/services'*/
               />
-            </ul>
-            <ul className='cards__items'>
               <CardItem2 onClick={() => setButtonPopup(true)} 
-                img src='/images/fishing.jpg'
+                src='images/fishing.jpeg'
                 label='Fishing Tours: 160$'
                 /*path='/services'*/
               />
             </ul>
-
           <ul></ul>
           <ul></ul>
           <ul></ul>

@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../App.css';
 import '../Cards.css';
-import CardItem2 from '../CardItem2';
 import CardItem1 from '../CardItem1';
 import CardItem from '../CardItem';
 import {useState, useEffect} from 'react';
@@ -20,7 +19,7 @@ export default function Services() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/IMG_0144.jpg'
+              src='images/IMG_0096.jpg'
               text='Single Room $60.00'
               label='Single'
               path='/services'
@@ -34,7 +33,7 @@ export default function Services() {
               path='/services'
             />
             <CardItem
-              src='images/mango2.jpg'
+              src='images/IMG_0096.jpg'
               text='Triple Room $90.00'
               label='Triple'
               path='/products'
@@ -42,7 +41,7 @@ export default function Services() {
           </ul>
           <ul className='cards__items'>
             <CardItem1
-              src='images/5.JPG'
+              src='images/IMG_0096.JPG'
               text='Cuadruple Room $100.00'
               label='Cuadruple'
               path='/sign-up'
