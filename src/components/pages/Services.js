@@ -35,7 +35,7 @@ export default function Services() {
             />
             <CardItem
               src='images/mango2.jpg'
-              text='Triple Room $80.00'
+              text='Triple Room $90.00'
               label='Triple'
               path='/products'
             />
