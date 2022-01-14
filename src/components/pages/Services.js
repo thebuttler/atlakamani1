@@ -3,6 +3,8 @@ import '../../App.css';
 import '../Cards.css';
 import CardItem1 from '../CardItem1';
 import CardItem from '../CardItem';
+
+
 import {useState, useEffect} from 'react';
 
 export default function Services() {
@@ -20,7 +22,7 @@ export default function Services() {
           <ul className='cards__items'>
             <CardItem
               src='images/IMG_0096.jpg'
-              text='Single Room $60.00'
+              text='Single Room $65.00'
               label='Single'
               path='/services'
             />
@@ -28,26 +30,28 @@ export default function Services() {
           <ul className='cards__items'>
             <CardItem
               src='images/IMG_0096.jpg'
-              text='Double Room $70.00'
+              text='Double Room $75.00'
               label='Doble'
               path='/services'
             />
             <CardItem
               src='images/IMG_0096.jpg'
-              text='Triple Room $90.00'
+              text='Triple Room $95.00'
               label='Triple'
-              path='/products'
+              path='/services'
+              trigger=' ksksksksk'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem1
               src='images/IMG_0096.JPG'
-              text='Cuadruple Room $100.00'
+              text='Cuadruple Room $110.00'
               label='Cuadruple'
-              path='/sign-up'
+              path='/services'
             />
           </ul>
         </div>
+        <a data-tip data-for="registerTip">All Prices do not include taxes, for more information please contact +503 7148-8025</a>
       </div>
     </div>
     );
